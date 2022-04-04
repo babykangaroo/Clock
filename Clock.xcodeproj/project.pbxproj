@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		E31F0D5E27FA7414001B0F25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31F0D5D27FA7414001B0F25 /* AppDelegate.swift */; };
 		E31F0D6027FA7414001B0F25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31F0D5F27FA7414001B0F25 /* ContentView.swift */; };
-		E31F0D6227FA7414001B0F25 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E31F0D6127FA7414001B0F25 /* Experience.rcproject */; };
 		E31F0D6427FA7417001B0F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31F0D6327FA7417001B0F25 /* Assets.xcassets */; };
 		E31F0D6727FA7417001B0F25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31F0D6627FA7417001B0F25 /* Preview Assets.xcassets */; };
 		E31F0D7127FA7417001B0F25 /* ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31F0D7027FA7417001B0F25 /* ClockTests.swift */; };
 		E31F0D7B27FA7417001B0F25 /* ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31F0D7A27FA7417001B0F25 /* ClockUITests.swift */; };
 		E31F0D7D27FA7417001B0F25 /* ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31F0D7C27FA7417001B0F25 /* ClockUITestsLaunchTests.swift */; };
+		E39B5D7727FB4D860094C74A /* ARVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B5D7627FB4D860094C74A /* ARVC.swift */; };
+		E39B5D7927FB4DD20094C74A /* ARVCVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B5D7827FB4DD20094C74A /* ARVCVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		E31F0D5A27FA7414001B0F25 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31F0D5D27FA7414001B0F25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E31F0D5F27FA7414001B0F25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E31F0D6127FA7414001B0F25 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		E31F0D6327FA7417001B0F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31F0D6627FA7417001B0F25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E31F0D6C27FA7417001B0F25 /* ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +46,8 @@
 		E31F0D7627FA7417001B0F25 /* ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31F0D7A27FA7417001B0F25 /* ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITests.swift; sourceTree = "<group>"; };
 		E31F0D7C27FA7417001B0F25 /* ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E39B5D7627FB4D860094C74A /* ARVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVC.swift; sourceTree = "<group>"; };
+		E39B5D7827FB4DD20094C74A /* ARVCVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVCVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +100,10 @@
 			children = (
 				E31F0D5D27FA7414001B0F25 /* AppDelegate.swift */,
 				E31F0D5F27FA7414001B0F25 /* ContentView.swift */,
-				E31F0D6127FA7414001B0F25 /* Experience.rcproject */,
 				E31F0D6327FA7417001B0F25 /* Assets.xcassets */,
 				E31F0D6527FA7417001B0F25 /* Preview Content */,
+				E39B5D7627FB4D860094C74A /* ARVC.swift */,
+				E39B5D7827FB4DD20094C74A /* ARVCVM.swift */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
@@ -261,8 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31F0D6027FA7414001B0F25 /* ContentView.swift in Sources */,
+				E39B5D7727FB4D860094C74A /* ARVC.swift in Sources */,
+				E39B5D7927FB4DD20094C74A /* ARVCVM.swift in Sources */,
 				E31F0D5E27FA7414001B0F25 /* AppDelegate.swift in Sources */,
-				E31F0D6227FA7414001B0F25 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -403,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -421,6 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = 42PGK7KJ5R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -451,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = 42PGK7KJ5R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
