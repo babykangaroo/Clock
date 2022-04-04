@@ -16,6 +16,7 @@
 		E31F0D7D27FA7417001B0F25 /* ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31F0D7C27FA7417001B0F25 /* ClockUITestsLaunchTests.swift */; };
 		E39B5D7727FB4D860094C74A /* ARVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B5D7627FB4D860094C74A /* ARVC.swift */; };
 		E39B5D7927FB4DD20094C74A /* ARVCVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B5D7827FB4DD20094C74A /* ARVCVM.swift */; };
+		E39B5D7B27FB95B30094C74A /* ARHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B5D7A27FB95B30094C74A /* ARHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E31F0D7C27FA7417001B0F25 /* ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E39B5D7627FB4D860094C74A /* ARVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVC.swift; sourceTree = "<group>"; };
 		E39B5D7827FB4DD20094C74A /* ARVCVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVCVM.swift; sourceTree = "<group>"; };
+		E39B5D7A27FB95B30094C74A /* ARHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				E31F0D6527FA7417001B0F25 /* Preview Content */,
 				E39B5D7627FB4D860094C74A /* ARVC.swift */,
 				E39B5D7827FB4DD20094C74A /* ARVCVM.swift */,
+				E39B5D7A27FB95B30094C74A /* ARHelper.swift */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31F0D6027FA7414001B0F25 /* ContentView.swift in Sources */,
+				E39B5D7B27FB95B30094C74A /* ARHelper.swift in Sources */,
 				E39B5D7727FB4D860094C74A /* ARVC.swift in Sources */,
 				E39B5D7927FB4DD20094C74A /* ARVCVM.swift in Sources */,
 				E31F0D5E27FA7414001B0F25 /* AppDelegate.swift in Sources */,
